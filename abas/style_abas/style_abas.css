@@ -1,9 +1,42 @@
 body{
-	width: 100%;
-	margin: 20%;
+	margin-top: 3%;
+	margin-left: 5%;
+	margin-right: 5%;	
+}
+
+select, input{
+	width: 310px;
+	height: 43px;
 }
 
 .corpoDocumento{
+	display: flex;
+	text-align: justify;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.caixaDados{
+	margin-bottom: 7%;
+}
+
+@media (max-width:  640px){
+	select, input{
 	width: 100%;
-	margin: 1%;
+	height: 35px;
+	}
+
+	.corpoDocumento{
+		margin-right: 50px;
+		width: 100%;
+		display: inline-block;
+		text-align: justify;
+		justify-content: center ;
+		align-items: center;
+	}
+
+	.caixaDados{
+		margin-right: 10%;
+	width: 100%;
+	}
 }

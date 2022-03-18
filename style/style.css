@@ -6,7 +6,7 @@ body{
 .TabControl{
 	width:100%;
 	overflow:hidden;
-	height:400px
+	height:100%
 }
 
 .TabControl #header{
@@ -20,7 +20,7 @@ body{
 	width:100%; 
 	border: solid 1px;
 	overflow:hidden; 
-	height:100%;
+	height:400px;
 }
 
 .TabControl .abas{
@@ -38,7 +38,8 @@ body{
 	border-radius:5px 5px 0 0;
 	text-align:center; 
 	padding-top:5px; 
-	background:#3A5FCD
+	/*background:#3A5FCD*/
+	background: #ccee55;
 }
 
 .ativa{width:130px; 
@@ -47,7 +48,8 @@ body{
 	border-radius:5px 5px 0 0;
 	text-align:center; 
 	padding-top:5px; 
-	background:#27408B;
+	/*background:#27408B;*/
+	background: #88bb44;
 }
 
 .ativa span, .selected span{
@@ -55,14 +57,16 @@ body{
 }
 
 .TabControl #content{
-	background:#27408B
+	/*background:#27408B;*/
+	background: #88bb44;
 }
 
 .TabControl .conteudo{
-	width:100%;  
-	background:#27408B; 
-	display:none;
+	width:100%;
 	height:100%;
+	/*background:#27408B;*/
+	background: #88bb44; 
+	display:none;
 	color:#fff
 }
 
@@ -73,10 +77,10 @@ body{
 	border-radius:5px 5px 0 0;
 	text-align:center; 
 	padding-top:5px; 
-	background:#27408B
+	/*background:#27408B;*/
+	background: #88bb44;
 }
 
 .corpoDocumento{
 	display: inline-flex;
 }
-
