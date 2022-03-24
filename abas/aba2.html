@@ -1,11 +1,74 @@
 <!DOCTYPE html>
 	<html>
 	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title></title>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" type="text/css" href="style_abas/reset.css">
+  	<link rel="stylesheet" type="text/css" href="style_abas/style_abas.css">
+  	<link rel="stylesheet" type="text/css" href="style_abas/style_abas2.css">
 	</head>
+
 	<body>
-		<p>Conteúdo aba 2.</p>
+    <div class="corpoDocumento">
+      <div class="corpoDocumentoEsquerdo">
+        <h2>Carteira</h2>
+  			<ul class="accordion-menu">
+          <li>
+            <div class="dropdownlink"><i class="fa fa-road" aria-hidden="true"></i> TESOURO DIRETO
+              <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </div>
+            <ul class="submenuItems">
+            	<li><a href="#">TESOURO SELIC</a></li>
+              <li><a href="#">TESOURO IPCA+ 2026</a></li>
+              <li><a href="#">TESOURO IPCA+ 2040</a></li>
+              <li><a href="#">TESOURO PRÉ-FIXADO 2028</a></li>
+            </ul>
+          </li>
+          <li>
+            <div class="dropdownlink"><i class="fa fa-paper-plane" aria-hidden="true"></i> AÇÕES
+              <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </div>
+            <ul class="submenuItems">
+              <li><a href="#">BOVA11</a></li>
+              <li><a href="#">AMER3</a></li>
+              <li><a href="#">TAEE11</a></li>
+            </ul>
+          </li>
+          <li>
+            <div class="dropdownlink"><i class="fa fa-quote-left" aria-hidden="true"></i> FUNDO IMOBILIÁRIOS <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </div>
+            <ul class="submenuItems">
+              <li><a href="#">HGLG11</a></li>
+              <li><a href="#">BPFF11</a></li>
+              <li><a href="#">BCFF11</a></li>
+            </ul>
+          </li>
+          <li>
+            <div class="dropdownlink"><i class="fa fa-motorcycle" aria-hidden="true"></i> RENDA FIXA
+              <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </div>
+            <ul class="submenuItems">
+              <li><a href="#">CDB - 104% CDI - BANCO DO BRASIL</a></li>
+              <li><a href="#">CDB - 100% CDI - NUBANK</a></li>
+              <li><a href="#">LCI -  93% CDI - BANCO MASTER</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      <div class="corpoDocumentoDireito">
+          <h2>Composição da Carteira</h2>
+          <div class="imgCarteira">
+            <figure class="imgCarteira">
+              <img height="100%" width="100%" src="grafics/aba2_carteira.png">
+            </figure>
+          </div>
+
+      </div>
+    </div>
+
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+    <script  src="./scripts/script_expansao_aba2.js"></script>
+
 	</body>
 	</html>

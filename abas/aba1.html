@@ -5,7 +5,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" type="text/css" href="style_abas/reset.css">
 		<link rel="stylesheet" type="text/css" href="style_abas/style_abas.css">
-		<!title><!/title>
 	</head>
 	
 	<body>
@@ -13,17 +12,16 @@
 		<div class="corpoDocumento">
 			<div class="corpoDocumentoEsquerdo">
 				<div class="caixaDados">
-					<p>Tipo Evento</p>
+					<h2>Tipo Evento</h2>
 					<select name="TipoList">
 						<option value="TipoList"></option>
 						<option value="TipoList">Compra</option>
 						<option value="TipoList">Venda</option>
-						<option value="TipoList">Sua mãe</option>
 					</select>
 				</div>
 
 				<div class="caixaDados">
-					<p>Investimento</p>
+					<h2>Investimento</h2>
 					<select name="InvestimentList">
 						<option value="InvestimentList"></option>
 						<option value="InvestimentList">Tesouro Direto</option>
@@ -34,7 +32,7 @@
 				</div>
 
 				<div class="caixaDados">
-					<p>Instituições</p>
+					<h2>Instituições</h2>
 					<select name="InstituicaoList">
 						<option value="InstituicaoList"></option>
 						<option value="InstituicaoList">Banco do Brasil</option>
@@ -45,33 +43,41 @@
 				</div>
 
 				<div class="caixaDados">
-					<p>Data Investimento</p>
+					<h2>Data Investimento</h2>
 					<input type="date" name="dataInvestimento">
 				</div>
 			</div>
 
 			<div class="corpoDocumentoDireito">
 				<div class="caixaDados">
-					<p>Produto investido</p>
+					<h2>Produto investido</h2>
 					<input type="text" name="nomeProduto">
 				</div>
 
 				<div class="caixaDados">
-					<p>Quantidade</p>
+					<h2>Quantidade</h2>
 					<input type="text" name="quantProduto">
 				</div>
 
 				<div class="caixaDados">
-					<p>Valor Unitário</p>
+					<h2>Valor Unitário</h2>
 					<input type="text" name="vlrProduto">
 				</div>
 
 				<div class="caixaDados">
-					<p>Valor Total</p>
-					<input type="text" name="vlrTotalProduto">
+					<h2>Valor Total</h2>
+					<label for="dinheiro">R$</label><input type="text" id="dinheiro" name="dinheiro" class="dinheiro form-control" " />
 				</div>
+
+				<div class="caixaDados">
+					<button > CADASTRAR</button> 
+				</div>
+				
 			</div>
 		</div>
+
+	<script src="https://igorescobar.github.io/jQuery-Mask-Plugin/js/jquery.mask.min.js"></script>
+	<script  src="./scripts/script_expansao_aba1.js"></script>
 
 	</body>
 	</html>
